@@ -15,3 +15,49 @@
 }
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------------------
+        FLEXBOX et largeur 
+--------------------------------------------*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-betwwen{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.align-items{
+    align-items: center;
+}
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    width: 30%;
+}
+.logo{
+    width: 200px;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+header{
+    background-color: blue;
+}
+.hero{
+    background-color :orangered;
+    height: 100vh;
+}
+
