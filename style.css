@@ -223,6 +223,12 @@ header{
     }
 }
 
+/*footer*/
+.reseaux img{
+    height: 18px;
+   
+    object-fit: contain;
+}
 
 .modal{
 
