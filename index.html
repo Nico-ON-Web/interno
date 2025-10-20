@@ -7,22 +7,254 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="m100 container">
+    <header>
+        <div class="container flex justify-between align-center">
+         <a href="" class="logo">
+            <img src="./assets/Logo.png" alt="">
+        </a>
         <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+            <ul class="flex gap16">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projets</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <div class="hero mt100 container">
-        <div>
-            <h1>Bla bla bla</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit provident a ipsum, hic enim recusandae fuga voluptates repellendus, cumque tenetur ab iusto voluptate voluptatibus, aperiam magnam fugit unde minus!</p>
+        </nav>   
         </div>
-    </div>
+        
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Rendez votre<br> maison unique</h1>
+            <p class="sloggan">Nous croyons que chaque espace a le potentiel d'être exceptionnel.</p>
+            <a href="" class="btn mt32">Construisons votre projet</a>
+        </div>
+    </section>
 
+    <!-- Sections nos services -->
+    <section class="container flex justify-between align-center services mt150">
+        <div class="w30">
+            <h3>Vision</h3>
+            <p>Notre processus commence par comprendre votre vision. Nous écoutons attentivement vos idées, vos rêves et vos besoins pour créer un design qui vous correspond.</p>
+        </div>
+        <div class="w30">
+            <h3>Créativité</h3>
+            <p>Notre équipe de designers explore des concepts uniques pour chaque projet, en veillant à ce que chaque détail soit une expression authentique de votre personnalité.</p>
+        </div>
+        <div class="w30">
+            <h3>Exécution Impeccable</h3>
+            <p>Nous nous engageons à fournir des résultats exceptionnels. Notre équipe supervise chaque étape du processus, de la conception initiale à l'installation finale.</p>
+        </div>
+
+    </section>
+
+    <!-- Section présentation -->
+    <section class="container flex justify-between align-center mt150 presentation">
+        <div class="w45">
+            <h2>Nous créons l'art De la vie élégante</h2>
+            <p class="mt32">Transformez votre maison en un espace élégant et fonctionnel avec nos services de design résidentiel sur mesure.</p>
+            <div class="flex gap16 mt32">
+                <div class="logo-tel"></div>
+                <div class="">
+                    <a href="tel:+012345678">012345678</a>
+                    <p>apellez nous n'importe quand</p>
+                </div>
+            </div>
+            <a href="" id="openbtn" class="btn mt32">Obtenez un devis gratuit</a>
+        </div>
+        <div class="w45">
+            <img src="./assets/image-article.jpg" alt="" class="responsive">
+        </div>
+    </section>
+
+    <!-- Section avis clients : ils nous font confiance -->
+    <section class="bg-gris mt150 ptb64">
+        <h2 class="text-center">Ils nous ont fait confiance</h2>
+        <div class="container flex justify-between align-center mt32">
+            <div class="w30 card-avis">
+                <div class="flex gap16">
+                    <img src="./assets/user1.png" alt="" class="avatar">
+                    <div>
+                        <h3>Natasha Mith</h3>
+                        <p>Lyon</p>
+                    </div>
+                        <p class="mt16">
+                            J'ai eu le plaisir de travailler avec Interno sur la rénovation complète de ma maison, et je suis extrêmement satisfaite du résultat !
+                        </p>
+                </div>
+            </div>
+           <div class="w30 card-avis">
+                <div class="flex gap16">
+                    <img src="./assets/user1.png" alt="" class="avatar">
+                    <div>
+                        <h3>Natasha Mith</h3>
+                        <p>Lyon</p>
+                    </div>
+                        <p class="mt16">
+                            J'ai eu le plaisir de travailler avec Interno sur la rénovation complète de ma maison, et je suis extrêmement satisfaite du résultat !
+                        </p>
+                </div>
+            </div>
+            <div class="w30 card-avis">
+                <div class="flex gap16">
+                    <img src="./assets/user1.png" alt="" class="avatar">
+                    <div>
+                        <h3>Natasha Mith</h3>
+                        <p>Lyon</p>
+                    </div>
+                        <p class="mt16">
+                            J'ai eu le plaisir de travailler avec Interno sur la rénovation complète de ma maison, et je suis extrêmement satisfaite du résultat !
+                        </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Partenaires -->
+    <section class="container mt150 flex justify-center gap32 align-center">
+        <div class="w15">
+            <img src="./assets/moderne-home.png" alt="" class="responsive">
+        </div>
+        <div class="w15">
+            <img src="./assets/vintage.png" alt="" class="responsive">
+        </div>
+        <div class="w15">
+            <img src="./assets/brand.png" alt="" class="responsive">
+        </div>
+        <div class="w15">
+            <img src="./assets/nature-home.png" alt="" class="responsive">
+        </div>
+        <div class="w15">
+            <img src="./assets/classic-design.png" alt="" class="responsive">
+        </div>
+    </section>
+
+    <!-- Nos projets -->
+    <section class="mt150 container projets">
+        <h2 class="text-center">Nos projets</h2>
+        <p class="text-center">Explorez notre portfolio pour découvrir l'univers Interno</p>
+        <div class="flex mt32 justify-between gap64">
+            <div class="w45">
+                <img src="./assets/cuisine.jpg" alt="" class="responsive rond-haut-droite">
+                <div class="flex justify-between">
+                    <div>
+                        <h3>Cuisine</h3>
+                        <p>Décors / Architecture</p>
+                    </div>
+                    <div class="picto-chevron">
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="w45">
+                <img src="./assets/entree-et-garage.jpg" alt="" class="responsive rond-haut-gauche">
+                <div class="flex justify-between">
+                    <div>
+                        <h3>Entrées et garages</h3>
+                        <p>Décors / Architecture</p>
+                    </div>
+                    <div class="picto-chevron">
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="w45">
+                <img src="./assets/bureau-et-chambre.jpg" alt="" class="responsive rond-bas-droite">
+                <div class="flex justify-between">
+                    <div>
+                        <h3>Bureaux et chambres</h3>
+                        <p>Décors / Architecture</p>
+                    </div>
+                    <div class="picto-chevron">
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="w45">
+                <img src="./assets/cabinet-et-salon.jpg" alt="" class="responsive rond-bas-gauche">
+                <div class="flex justify-between">
+                    <div>
+                        <h3>Cabinets et Salons</h3>
+                        <p>Décors / Architecture</p>
+                    </div>
+                    <div class="picto-chevron">
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section newsletter -->
+    <section class="bg-dark text-center mt150">
+        <h2>Rejoignez la comunauté Interno</h2>
+        <p>john.doe@gmail.com</p>
+        <input type="text" name="" id="" placeholder="john.doe@gmail.com">
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mt150">
+        <div class="flex gap64"><div class="w30">
+            <img src="./assets/Logo.png" alt="" class="logo">
+            <p>Prêt à tout changer ? Contactez-nous dès aujourd'hui pour planifier un rendez-vous !</p>
+        </div>
+        <div class="w30">
+            <h3>Contact</h3>
+            <address>
+                <p>55 rue de coquelicots</p>
+                <p>69000 LYON</p>
+                <a href="mailto:contact@interno.fr">contact@interno.fr</a>
+                <a href="tel:+012345678">012345678</a>
+            </address>
+        </div></div>
+        
+        <p class="texte-center mt32">Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</p>
+    </footer>
+
+    <!-- Modal : formulaire de demande de devis -->
+    <div class="mask display-none"></div>
+    <div class="modal display-none">
+        <div class="close-modal">
+            
+        </div>
+        <h2>Mon devis gratuit</h2>
+        <p>Remplissez le formualire ci dessous , décrivez votre projet nous vous contacterons dans les plus brefs délais</p>
+        <form action="">
+        <div class="flex gap32">
+            <div>
+                <label for="">Votre nom complet</label>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <label for="">Votre email</label>
+                <input type="email" name="" id="">
+            </div>
+        </div>
+        <div class="flex gap32">
+            <div>
+                <label for="">Type de lieu</label>
+                <select name="" id="">
+                    <option value="">Appartement / maison</option>
+                    <option value="">Bureaux / Commerces</option>
+                    <option value="">Hôtel / Restaurant</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Superficie</label>
+                
+                <input type="radio" name="superficie" id=""><label class="label-inline" for="">moins de 50m²</label>
+                <input type="radio" name="superficie" id=""><label class="label-inline" for="">de 50 à 100 m²</label>
+                <input type="radio" name="superficie" id=""><label class="label-inline" for="">supérieur a 100m²</label>  
+               
+            </div>
+        </div>
+        <div class="mt16">
+            <label for="">Votre message</label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <input id="submitbtn" type="submit" value="Envoyer ma demande de devis" class="btn mt16">
+    </form>
+    </div>
+    <script src="./app.js" defer></script>
 </body>
+
 </html>
