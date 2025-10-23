@@ -43,7 +43,7 @@ h3{
 }
 p{
     line-height: 150%;
-    font-size: 22px;
+    font-size: 16px;
     /*cette propriété permet d'avoir des retours a la ligne plus naturels et harmonieux dans les paragraphes*/
     text-wrap: balance;
 }
@@ -116,11 +116,11 @@ p{
 /*buttons*/
 .btn{
     display: inline-block;
-    padding: 26px 32px;
+    padding: 16px 32px;
     border-radius: 18px;
     background-color: #292F36;
     color: #fff;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 
