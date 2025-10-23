@@ -178,7 +178,9 @@ header{
 
 /*pictos dans des cercles*/
 .picto-tel{
-
+    width: 64px;
+    height: 64px;
+    background-color: #F4F0EC;
 }
 .picto-chevron{
    width: 70px;
@@ -282,4 +284,23 @@ input[type="text"],input[type="email"], select{
 
 .display-none{
     display: none;
+}
+.close-modal{
+    width : 32px;
+    height: 32px;
+   
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    cursor: pointer;
+}
+
+.close-modal::after{
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "✕";
+    font-size: 32px;
 }
