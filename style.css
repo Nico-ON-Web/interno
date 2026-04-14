@@ -185,7 +185,7 @@ header{
 .picto-chevron{
    width: 70px;
    height: 70px;
- 
+   display: inline-block;
 }
 
 .picto-chevron,.picto-tel{
